@@ -1,0 +1,52 @@
+{
+	"info": {
+		"_postman_id": "78318a22-5d67-44fe-bb09-4548e6f6fb97",
+		"name": "Spring-Boot-Email-Example-App",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "sendMail",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/mail-app/api/sendMail",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"mail-app",
+						"api",
+						"sendMail"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "sendMailWithAttachment",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/mail-app/api/sendMailWithAttachment",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"mail-app",
+						"api",
+						"sendMailWithAttachment"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
